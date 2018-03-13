@@ -19,7 +19,6 @@ OUTPUT_FILE = "output.txt"
 day = 0
 price = INITIAL_PRICE
 
-
 out_file = open(OUTPUT_FILE, 'w')
 
 print("Starting price: ${:,.2f}".format(price), file=out_file)
@@ -36,9 +35,9 @@ while price >= MIN_PRICE and price <= MAX_PRICE:
         # generate a random floating-point number
         # between negative MAX_INCREASE and 0
         price_change = random.uniform(-MAX_DECREASE, 0)
-    day = day+1
+    day = day + 1
 
     price *= (1 + price_change)
     print("On day", day, "price is", "${:,.2f}".format(price), file=out_file)
 
-out_file.close()
+    out_file.close()
