@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c574fd-4ed4-4f78-94d0-571013dd0013" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prac_03/broken_score.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prac_03/oddName.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Practicals.iml" afterPath="$PROJECT_DIR$/.idea/Practicals.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prac_03/temperatures.py" afterPath="$PROJECT_DIR$/prac_03/temperatures.py" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Practicals$oddName.coverage" NAME="oddName Coverage Results" MODIFIED="1520909804916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_03" />
     <SUITE FILE_PATH="coverage/Practicals$broken_score.coverage" NAME="broken_score Coverage Results" MODIFIED="1520909031195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_03" />
     <SUITE FILE_PATH="coverage/Practicals$temperatures.coverage" NAME="temperatures Coverage Results" MODIFIED="1520908501228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_03" />
   </component>
@@ -30,8 +31,8 @@
       <file leaf-file-name="oddName.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prac_03/oddName.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,9 +75,9 @@
       <list>
         <option value="$PROJECT_DIR$/Deez nuts.py" />
         <option value="$PROJECT_DIR$/prac_02/capitalist_conrad.py" />
-        <option value="$PROJECT_DIR$/prac_03/oddName.py" />
         <option value="$PROJECT_DIR$/prac_03/temperatures.py" />
         <option value="$PROJECT_DIR$/prac_03/broken_score.py" />
+        <option value="$PROJECT_DIR$/prac_03/oddName.py" />
       </list>
     </option>
   </component>
@@ -169,9 +170,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.broken_score">
+  <component name="RunManager" selected="Python.oddName">
     <configuration default="false" name="capitalist_conrad" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,6 +238,24 @@
       <module name="Practicals" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_03/broken_score.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="oddName" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practicals" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_03/oddName.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -442,16 +462,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.capitalist_conrad" />
       <item index="1" class="java.lang.String" itemvalue="Python.temperatures" />
       <item index="2" class="java.lang.String" itemvalue="Python.broken_score" />
+      <item index="3" class="java.lang.String" itemvalue="Python.oddName" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.broken_score" />
-        <item index="1" class="java.lang.String" itemvalue="Python.temperatures" />
-        <item index="2" class="java.lang.String" itemvalue="Python.capitalist_conrad" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.oddName" />
+        <item index="1" class="java.lang.String" itemvalue="Python.broken_score" />
+        <item index="2" class="java.lang.String" itemvalue="Python.temperatures" />
+        <item index="3" class="java.lang.String" itemvalue="Python.capitalist_conrad" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520908660368</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="split broken score into functions&#10;">
+      <created>1520909141573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1520909141573</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -560,7 +589,8 @@
     <MESSAGE value="Added all previous practicals to git" />
     <MESSAGE value="added temperatures python file" />
     <MESSAGE value="put temperatures into functions&#10;added broken score" />
-    <option name="LAST_COMMIT_MESSAGE" value="put temperatures into functions&#10;added broken score" />
+    <MESSAGE value="split broken score into functions&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="split broken score into functions&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -585,6 +615,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/prac_02/capitalist_conrad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/prac_03/temperatures.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -601,18 +639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prac_02/capitalist_conrad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prac_03/oddName.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
