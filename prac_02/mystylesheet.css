@@ -1,0 +1,47 @@
+ body {
+	padding-left: 11em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+    color: purple;
+    background-color: #66ccff }
+	ul.navbar {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 2em;
+		left: 1em;
+		width: 9em }
+	h1 {
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif }
+	ul.navbar li {
+		background: white;
+		margin: 0.5em 0;
+		padding: 0.3em;
+		border-right: 1em solid black; }
+	ul.navbar a {
+		text-decoration: none; }
+	a:link {
+		color: blue; }
+	a:visited {
+		color: purple; }
+	
+	  a:hover.awful {
+	color: #FFF; background-color: #FF6; font-size: x-large; 
+           margin: 5em;
+	border: groove thick red; font-family: Comic Sans, Tahoma,  
+           sans-serif }
+
+#footer {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 0.7em;
+	background-color: #2c2e38;
+	color: #d7ceb2;
+	font: "Helvetica", Arial, sans-serif;
+	border-radius: 15px 15px 0px 0px;
+	position: absolute;
+    }
+#footer a { color: #FC3; }
