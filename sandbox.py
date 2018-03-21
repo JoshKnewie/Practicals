@@ -5,7 +5,7 @@
 # for i in range(0, 13, 3):
 #     print("{:0=2}".format(i))
 
-from string import ascii_lowercase
+from string import ascii_letters
 
 
 # text = "Suck my fat dick"
@@ -53,13 +53,20 @@ from string import ascii_lowercase
 # main()
 
 ###Write a fucntion with a docstrig that takes in a number and returns the number squared
-def main():
-    number = int(input("What is the number you would like to square?"))
-    number_squared = square_a_number(number)
-    print(number_squared)
+# def main():
+#     number = int(input("What is the number you would like to square?"))
+#     number_squared = square_a_number(number)
+#     print(number_squared)
+#
+# def square_a_number(number):
+#     """Squares a number"""
+#     return number ** 2
+#
+# main()
 
-def square_a_number(number):
-    """Squares a number"""
-    return number ** 2
+# ask user for name and tell them how many vowels are in their name
 
-main()
+VOWEL = "aeiou"
+name = input("Name: ")
+if VOWEL in name():
+    print("There is a vowel")
