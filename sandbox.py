@@ -65,8 +65,11 @@ from string import ascii_letters
 # main()
 
 # ask user for name and tell them how many vowels are in their name
+#
+# VOWEL = "aeiou"
+# name = input("Name: ")
+# if VOWEL in name():
+#     print("There is a vowel")
 
-VOWEL = "aeiou"
-name = input("Name: ")
-if VOWEL in name():
-    print("There is a vowel")
+d = {'a': 123, 'b': 234}
+d.values("a") += 1
