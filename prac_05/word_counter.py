@@ -6,8 +6,8 @@ for word in user_string:
     else:
         word_count[word] = 1
 
-max_length = max(word_count, key=len)
-print(max_length)
 
-for word in sorted(word_count):
-    print("{:{}} = {}".format(word_count[word], max_length, word_count))
+max_length = max((len(word) for word in word_count))
+
+for word, value in sorted(word_count.items()):
+    print("{:{}} = {}".format(word, max_length, value))
