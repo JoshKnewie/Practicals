@@ -1,6 +1,6 @@
-user_string = input("Enter a sentence to have the words counted: ").split()
+user_list_of_words = input("Enter a sentence to have the words counted: ").split()
 word_count = {}
-for word in user_string:
+for word in user_list_of_words:
     if word in word_count:
         word_count[word] += 1
     else:
