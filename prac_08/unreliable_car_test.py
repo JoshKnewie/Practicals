@@ -1,4 +1,4 @@
-from unreliable_car import UnreliableCar
+from prac_08.unreliable_car import UnreliableCar
 
 HyundaiGetz = UnreliableCar("Hyundai Getz", 100, 30)
 assert HyundaiGetz.drive(10)
