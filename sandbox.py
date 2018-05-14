@@ -71,5 +71,8 @@ from string import ascii_letters
 # if VOWEL in name():
 #     print("There is a vowel")
 
-d = {'a': 123, 'b': 234}
-d.values("a") += 1
+# d = {'a': 123, 'b': 234}
+# d.values("a") += 1
+
+
+print(" ".join([str(i * 2) for i in range(1, 16, 3) if i % 2 == 0]))
