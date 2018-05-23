@@ -3,13 +3,14 @@ import shutil
 
 categories = {}
 files_types = []
+os.chdir('FilesToSort')
 for file in os.listdir('.'):
-    extention = file.split(".", 1)[1]
+    extention = os.path.splitext(file)[1][1:]
     if extention in categories:
-        pass
+        shutil.move(file, extention)
     else:
-        new_key = input("What category would you like to sort doc files into?")
+        new_key = input("What category would you like to sort {} files into?").format(extention)
         categories[new_key] = extention
-        # os.mkdir(extention)
-    # shutil.move(file, extention)
+        os.mkdir(new_key)
+
     print(categories)
